@@ -1,0 +1,48 @@
+/* util part css */
+
+.bb { box-sizing: border-box; }
+.w100 { width: 100%; }
+.h100 { height: 100%; }
+.wh100 { width: 100%; height: 100%; }
+
+/* end util part css */
+
+
+
+/* each tag's css */
+
+html,body {
+  height: 100%;
+}
+
+html, header, body, footer {
+  margin: 0;
+  width: 100%;
+}
+
+header, footer {
+  position: absolute;
+  left: 0;
+}
+
+header {
+  top: 0;
+  height: 52px;
+}
+
+body {
+  padding: 52px 0 30px;
+  position: relative;
+}
+
+footer {
+  bottom: 0;
+  height: 30px;
+}
+
+/* end each tag's css */
+
+
+
+
+/*  */
